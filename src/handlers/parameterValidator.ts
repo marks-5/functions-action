@@ -161,6 +161,7 @@ export class ParameterValidator implements IOrchestratable {
     }
 
     private validateScmCredentialsSlotName(state: StateConstant): void {
+        return;
         if (this._scmCredentials && this._scmCredentials && this._appName && this._slot) {
             let urlName: string = this._appName;
 
